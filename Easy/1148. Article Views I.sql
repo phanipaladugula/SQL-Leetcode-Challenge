@@ -18,7 +18,7 @@
 
 -- Problem:
 -- Find all authors who viewed at least one of their own articles.
---
+
 -- Condition:
 -- author_id = viewer_id
 --

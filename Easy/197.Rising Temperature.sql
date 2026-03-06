@@ -43,8 +43,8 @@ On 2015-01-02, temperature increased from 10 to 25.
 On 2015-01-04, temperature increased from 20 to 30.
 */
 
-SELECT w1.id
-FROM Weather w1
+SELECT w.id
+FROM Weather w
 JOIN Weather w2
-ON DATEDIFF(w1.recordDate, w2.recordDate) = 1
-WHERE w1.temperature > w2.temperature;
+ON DATEDIFF(w.recordDate, w2.recordDate) = 1
+WHERE w.temperature > w2.temperature;

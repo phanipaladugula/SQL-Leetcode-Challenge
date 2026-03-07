@@ -6,7 +6,7 @@
 
 -- A single number is a number that appears exactly once.
 -- Find the largest single number.
--- If no such number exists return NULL.
+-- If no such number exists return NULL
 
 select max(num) as num from 
 (
